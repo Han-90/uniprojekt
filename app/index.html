@@ -3,16 +3,46 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Cloud Programming Projekt</title>
+  <title>Cloud Comment Board</title>
+  <link rel="stylesheet" href="styles.css" />
   <script defer src="app.js"></script>
 </head>
 <body>
-  <h1>Cloud Programming Projekt</h1>
-  <p>Static Web App + Azure Function + Cosmos DB</p>
+  <main class="container">
+    <section class="card hero">
+      <p class="eyebrow">Azure Static Web App + Function App + Cosmos DB</p>
+      <h1>Cloud Comment Board</h1>
+      <p class="subtitle">
+        Ein minimalistisches Demo-Projekt mit Frontend, Serverless API und Datenpersistenz in Cosmos DB.
+      </p>
+    </section>
 
-  <button id="seedBtn">Testdaten speichern</button>
-  <button id="loadBtn">Daten laden</button>
+    <section class="card composer">
+      <label for="commentInput" class="label">Dein Kommentar</label>
+      <textarea
+        id="commentInput"
+        class="textarea"
+        placeholder="Schreibe hier deinen Kommentar..."
+        rows="5"
+      ></textarea>
 
-  <pre id="output">Noch keine Ausgabe.</pre>
+      <div class="actions">
+        <button id="saveBtn" class="btn btn-primary">Kommentar speichern</button>
+        <button id="loadBtn" class="btn btn-secondary">Kommentare laden</button>
+      </div>
+
+      <p id="status" class="status">Bereit.</p>
+    </section>
+
+    <section class="card comments-section">
+      <div class="section-header">
+        <h2>Kommentare</h2>
+      </div>
+
+      <div id="commentsList" class="comments-list">
+        <p class="empty-state">Noch keine Kommentare geladen.</p>
+      </div>
+    </section>
+  </main>
 </body>
 </html>
