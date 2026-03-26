@@ -2,13 +2,13 @@ const output = document.getElementById("output");
 const seedBtn = document.getElementById("seedBtn");
 const loadBtn = document.getElementById("loadBtn");
 
-const API_BASE =
+const API_URL =
   "https://function-app-uniproject-dev.azurewebsites.net/api/items";
 
 seedBtn.addEventListener("click", async () => {
   output.textContent = "Speichere Testdaten...";
   try {
-    const res = await fetch(API_BASE, {
+    const res = await fetch(API_URL, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -33,7 +33,7 @@ seedBtn.addEventListener("click", async () => {
 loadBtn.addEventListener("click", async () => {
   output.textContent = "Lade Daten...";
   try {
-    const res = await fetch(API_BASE);
+    const res = await fetch(API_URL);
 
     const text = await res.text();
     output.textContent = text;
