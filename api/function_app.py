@@ -4,8 +4,7 @@ import azure.functions as func
 
 from shared.cosmos_client import get_container_client
 
-app = func.FunctionApp(http_auth_level=func.AuthLevel.FUNCTION)
-
+app = func.FunctionApp(http_auth_level=func.AuthLevel.ANONYMOUS)
 
 @app.route(route="items", methods=["GET", "POST"])
 def items(req: func.HttpRequest) -> func.HttpResponse:
