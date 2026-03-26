@@ -1,0 +1,35 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="AndroidLintAddJavascriptInterface" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="AndroidLintAppBundleLocaleChanges" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="AndroidLintExtraTranslation" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="AndroidLintFindViewByIdCast" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="AndroidLintGetLocales" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="AndroidLintHardcodedText" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="AndroidLintInvalidAnalyticsName" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="AndroidLintInvalidResourceFolder" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="AndroidLintJavaPluginLanguageLevel" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="AndroidLintJavascriptInterface" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="AndroidLintKtxExtensionAvailable" enabled="false" level="INFO" enabled_by_default="false" />
+    <inspection_tool class="AndroidLintLocaleFolder" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="AndroidLintMissingQuantity" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="AndroidLintMissingTranslation" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="AndroidLintNotInterpolated" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="AndroidLintPluralsCandidate" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="AndroidLintSetTextI18n" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="AndroidLintStringFormatCount" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="AndroidLintUastImplementation" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="AndroidLintUnusedQuantity" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="AndroidLintUseAlpha2" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="AndroidLintWrongRegion" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="GrazieInspection" enabled="false" level="GRAMMAR_ERROR" enabled_by_default="false" />
+    <inspection_tool class="LanguageDetectionInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="ShrinkerArrayType" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="SpellCheckingInspection" enabled="false" level="TYPO" enabled_by_default="false">
+      <option name="processCode" value="true" />
+      <option name="processLiterals" value="true" />
+      <option name="processComments" value="true" />
+    </inspection_tool>
+  </profile>
+</component>

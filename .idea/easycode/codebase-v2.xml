@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="com.obiscr.chatgpt.settings.EasyCodeState">
+    <option name="projectFiles" value="$PROJECT_DIR$/terraform/envs/dev.tfvars;C:/Users/NorthRemembers/Desktop/projectCloudProgramming/terraform/envs/prod.tfvars;C:/Users/NorthRemembers/Desktop/projectCloudProgramming/terraform/envs/test.tfvars;C:/Users/NorthRemembers/Desktop/projectCloudProgramming/terraform/main.tf;C:/Users/NorthRemembers/Desktop/projectCloudProgramming/terraform/providers.tf;C:/Users/NorthRemembers/Desktop/projectCloudProgramming/terraform/variables.tf" />
+  </component>
+</project>

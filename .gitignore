@@ -1,0 +1,78 @@
+# =========================
+
+# Terraform
+
+# =========================
+
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+terraform.tfvars
+
+
+# .terraform.lock.hcl
+
+# =========================
+
+# Azure / Credentials
+
+# =========================
+
+*.pem
+*.key
+*.pfx
+*.env
+.env.*
+.azure/
+
+# =========================
+
+# VS Code
+
+# =========================
+
+.vscode/
+
+# =========================
+
+# Logs
+
+# =========================
+
+*.log
+
+# =========================
+
+# OS Files
+
+# =========================
+
+.DS_Store
+Thumbs.db
+
+# =========================
+
+# Python
+
+# =========================
+
+**pycache**/
+*.pyc
+.venv/
+env/
+
+# =========================
+
+# Node 
+
+# =========================
+
+node_modules/
+dist/
+build/
+npm-debug.log*
